@@ -4,7 +4,7 @@
 *[Master Stylesheet]
 *
 * Project: Voyager Car rental
-* Version: 
+* Version:
 * Created : 20.09.2019
 * Author Name: CodeDevs
 * Description: Voyager is a modern and clean designed Car Rental 100% Responsive Website
@@ -78,7 +78,8 @@
 
 
 /*== Theme Defualt CSS ==*/
-body{
+
+body {
     background-color: #fff;
     margin: auto;
     padding: auto;
@@ -279,7 +280,7 @@ header.fixTotop #header-bottom {
 
 .mainmenu ul li ul li a {
     color: #000 !important;
-    font-size: 12px;
+    font-size: 9px;
     font-weight: 600;
     margin: 0;
     padding: 10px 25px;
@@ -362,7 +363,7 @@ a.slicknav_btn {
 }
 
 .slicknav_parent ul {
-    font-size: 13px;
+    font-size: 10px;
     margin-left: 15px;
 }
 
@@ -1628,42 +1629,46 @@ body,
     opacity: 1;
 }
 
-slider{
-	display:block;
-	width:100%;
-	height:80%;
-	overflow:hidden;
-	position:absolute;
-	
+slider {
+    display: block;
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    position: absolute;
 }
-slider >*{
-	position:absolute;
-	display:block;
-	width:100%;
-	height:100%;
-	animation:slide 20s infinite;
-	overflow:hidden;
-	
+
+slider>* {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    animation: slide 20s infinite;
+    overflow: hidden;
 }
-slide:nth-child(1){
-	left:0%;
-	animation-delay:-1s;
-	background-image:url(img/slider1.jpg);
-	background-size:cover;
-	background-position:center;
+
+slide:nth-child(1) {
+    left: 0%;
+    animation-delay: -1s;
+    background-image: url(img/slider1.jpg);
+    background-size: cover;
+    background-position: center;
 }
-slide:nth-child(2){
-	animation-delay:0s;
-	background-image:url(img/slider2.jpg);
-	background-size:cover;
-	background-position:center;
+
+slide:nth-child(2) {
+    animation-delay: 0s;
+    background-image: url(img/slider2.jpg);
+    background-size: cover;
+    background-position: center;
 }
-slide:nth-child(3){
-	animation-delay:1s;
-	background-image:url(img/slider3.jpg);
-	background-size:cover;
-	background-position:center;
+
+slide:nth-child(3) {
+    animation-delay: 1s;
+    background-image: url(img/slider3.jpg);
+    background-size: cover;
+    background-position: center;
 }
+
+
 /*== SlideShow CSS ==*/
 
 
@@ -2308,13 +2313,11 @@ slide:nth-child(3){
     max-width: 100%;
     width: 100%;
 }
-.driver{
+
+.driver {
     display: block;
     padding: 20%;
     max-width: 100%;
-
- 
-
 }
 
 
@@ -3031,21 +3034,21 @@ slide:nth-child(3){
 ================================*/
 
 .login-page-content {
-    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 2px 5px rgb(252, 252, 252);
+    box-shadow: 0 2px 5px rgb(253, 252, 252);
     padding-bottom: 35px;
     text-align: center;
     border-radius: 3px;
 }
 
 .login-form {
-    background-color: #3a3a3a;
+    background-color: #f8f7f7;
     background-image: url("img/slider4.jpg");
     padding: 50px 20px 15px;
 }
 
 .login-form h3 {
-    color: #000;
+    color: rgb(255, 249, 249);
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -3056,7 +3059,7 @@ slide:nth-child(3){
 .login-form button {
     background-color: transparent;
     border: 1px solid #555;
-    color: #000;
+    color: #0066ff;
     margin: 10px 0;
     padding: 10px 20px;
     -webkit-transition: all 0.4s ease 0s;

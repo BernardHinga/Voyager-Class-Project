@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 include('includes/config.php');
 error_reporting(0);
@@ -58,7 +58,7 @@ error_reporting(0);
 
     <!--Header-->
 <?php include('includes/header.php');?>
-<!-- /Header --> 
+<!-- /Header -->
     <!--== Slider Area Start ==-->
     <section id="home-slider-area">
         <div class="home-slider-item slider-bg-1 overlay">
@@ -145,11 +145,11 @@ error_reporting(0);
                             </div>
 
                             <div class="pick-date bookinput-item">
-                                <input id="startDate2" placeholder="Pick Date" />
+                                <input type="date" id="startDate2" placeholder="Pick Date" />
                             </div>
 
                             <div class="retern-date bookinput-item">
-                                <input id="endDate2" placeholder="Return Date" />
+                                <input type="date" id="endDate2" placeholder="Return Date" />
                             </div>
 
                             <div class="car-choose bookinput-item">
@@ -317,7 +317,7 @@ error_reporting(0);
                     </div>
                     <!-- Section Title End -->
                 </div>
-    
+
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="team-content">
@@ -336,8 +336,8 @@ $cnt=1;
 if($query->rowCount() > 0)
 {
 foreach($results as $result)
-{  
-?>  
+{
+?>
 
 <div class="col-list-3">
 <div class="recent-car-list">
@@ -350,7 +350,7 @@ foreach($results as $result)
 </div>
 <div class="car-title-m">
 <h6><a href="vehical-details.php?vhid=<?php echo htmlentities($result->id);?>"><?php echo htmlentities($result->BrandName);?> , <?php echo htmlentities($result->VehiclesTitle);?></a></h6>
-<span class="price">$<?php echo htmlentities($result->PricePerDay);?> /Day</span> 
+<span class="price">$<?php echo htmlentities($result->PricePerDay);?> /Day</span>
 </div>
 <div class="inventory_info_m">
 <p><?php echo substr($result->VehiclesOverview,0,70);?></p>
@@ -358,16 +358,16 @@ foreach($results as $result)
 </div>
 </div>
 <?php }}?>
-       
+
       </div>
     </div>
   </div>
 </section>
-<!-- /Resent Cat --> 
+<!-- /Resent Cat -->
 
    <!--Footer -->
 <?php include('includes/footer.php');?>
-<!-- /Footer--> 
+<!-- /Footer-->
 
     <!--== Scroll Top Area Start ==-->
     <div class="scroll-top">

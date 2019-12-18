@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 include('includes/config.php');
 error_reporting(0);
@@ -53,9 +53,9 @@ error_reporting(0);
 
      <!--Header-->
 <?php include('includes/header.php');?>
-<!-- /Header --> 
+<!-- /Header -->
 
-    
+
     <!--== Page Title Area Start ==-->
     <section id="page-title-area" class="section-padding overlay">
         <div class="container">
@@ -74,7 +74,7 @@ error_reporting(0);
     </section>
     <!--== Page Title Area End ==-->
 
-    <!--== Page mapping starts here 
+    <!--== Page mapping starts here
     <div class="page-pagi">
         <nav aria-label="Page navigation example">
             <ul class="pagination">
@@ -371,11 +371,11 @@ error_reporting(0);
                                     <ul class="pagination">
                                         <li class="page-item"><a class="page-link" href="#">Previous</a></li>
                                         <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                                        <li class="page-item"><a class="page-link" href="gallery1.html">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="gallery1.php">2</a></li>
                                         <li class="page-item"><a class="page-link" href="#">3</a></li>
                                         <li class="page-item"><a class="page-link" href="#">4</a></li>
                                         <li class="page-item"><a class="page-link" href="#">5</a></li>
-                                        <li class="page-item"><a class="page-link" href="gallery1.html">Next</a></li>
+                                        <li class="page-item"><a class="page-link" href="gallery1.php">Next</a></li>
                                     </ul>
                                 </nav>
                             </div>

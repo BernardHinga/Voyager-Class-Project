@@ -25,32 +25,32 @@
                     <!--== Social Icons Start ==-->
                     <div class="col-lg-3 text-right">
                         <div class="header-social-icons">
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="www.instagram.com"><i class="fa fa-instagram"></i></a>
+                            <a href="www.facebook.com"><i class="fa fa-facebook"></i></a>
+                            <a href="www.twitter.com"><i class="fa fa-twitter"></i></a>
 
                         </div>
                         <!-- Welcome Message -->
                     <div class="welcome-message">
                         <?php   if(strlen($_SESSION['login'])==0)
-    {   
+    {
 ?>
 <div><p> Hello </p> </div>
 <?php }
-else{ 
+else{
 
 echo "Welcome";
  } ?>
                     </div>
-                    <!-- End of Welcome Message --> 
+                    <!-- End of Welcome Message -->
                     </div>
-                    
+
                     <!--== Social Icons End ==-->
-                   
+
                 </div>
             </div>
         </div>
-        
+
         <!--== Header Top End ==-->
 
         <!--== Header Bottom Start ==-->
@@ -85,7 +85,7 @@ echo "Welcome";
                                         <li><a href="#">Minivan</a></li>
                                     </ul>
                                 </li>
-                                
+
                                 <li><a href="pricing.php">Pricing</a></li>
                                 <li><a href="#">Contact Us</a></li>
                                 <li><a href="#">More</a>
@@ -96,15 +96,15 @@ echo "Welcome";
                                     </ul>
                                 </li>
                             <li><?php   if(strlen($_SESSION['login'])==0)
-                                {   
+                                {
                                          ?>
-                                            <a href= "login.php"> Login/Registration</a> 
-                             </li> 
-                             <li>              
+                                            <a href= "login.php"> Login/Registration</a>
+                             </li>
+                             <li>
                                     <?php }
 
-                                    else{  
-                                   
+                                    else{
+
                                    $email=$_SESSION['login'];
                                    $sql ="SELECT FullName FROM tblusers WHERE EmailId=:email ";
                                    $query= $dbh -> prepare($sql);
@@ -116,8 +116,8 @@ echo "Welcome";
                                 foreach($results as $result)
                                     {
                                         ?>
-                                    <a href="#"> 
-                                    <?php   
+                                    <a href="#">
+                                    <?php
 
                                 echo htmlentities($result->FullName); }}?>
                             </a>
@@ -130,10 +130,10 @@ echo "Welcome";
                                     <li><a href="my-testimonials.php">My Testimonial</a></li>
                                     <li><a href="logout.php">Sign Out</a></li>
                                 </ul>
-                              <?php      
+                              <?php
                              } ?></li>
-                           
-                                    
+
+
                             </ul>
                         </nav>
                     </div>
@@ -144,8 +144,8 @@ echo "Welcome";
         <!--== Header Bottom End ==-->
     </header>
     <!--== Header Area End ==-->
-  
- 
 
-  
+
+
+
 </header>
