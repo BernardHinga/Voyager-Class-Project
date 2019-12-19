@@ -108,7 +108,7 @@ error_reporting(0);
                             <ul>
                                 <li><a href="home.html">Home</a></li>
                                 <li><a href="services.html">Services</a></li>
-                                <li class="active"><a href="#">Gallery</a>
+                                <li class="active"><a href="gallery.html">Gallery</a>
                                     <ul>
 
                                         <li><a href="suvgallery.html">SUV</a></li>
@@ -137,75 +137,6 @@ error_reporting(0);
     </header>
     <!--== Header Area End ==-->
 
-    <!--== Slider Area Start ==-->
-    <section id="home-slider-area">
-        <div class="home-slider-item slider-bg-1 overlay">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="slideshowcontent">
-                            <h1>BROWSE OVER OUR WIDE RANGE OF AVAILABLE LUXURIOUS CARS</h1>
-                            <p>ENJOY JOURNEYS AT THE COMFORT OF YOUR OWN CAR AT RIDICULOUSLY LOW PRICES</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="home-slider-item slider-bg-2 overlay">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="slideshowcontent">
-                            <h1>WE APPRECIATE YOU AS MUCH AS YOU TRUST US</h1>
-                            <p>FOR OUR RETURNING CUSTOMERS GET AMAZING DISCOUNTS<br>UP TO 20% OFF</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="home-slider-item slider-bg-3 overlay">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="slideshowcontent">
-                            <h1>GO EASY ON THE WALLET</h1>
-                            <p>AT AMAZINGLY LOW PRICES ENJOY THE BEST RATES NATIONWIDE</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="home-slider-item slider-bg-4 overlay">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="slideshowcontent">
-                            <h1>YOU DON'T HAVE TO BUY YOUR FAVORITE CAR!</h1>
-                            <p>FOR AS LOW AS 1500 Ksh A DAY YOU CAN OWN HIRE IT FOR AS LONG AS YOU WANT</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="home-slider-item slider-bg-5 overlay">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="slideshowcontent">
-                            <h1>LIVE THE LIFE YOU WANT WITH THE CAR OF YOUR DREAMS</h1>
-                            <p>HURRY AND BOOK IT NOW WHILE THEY LAST!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--== Slider Area End ==-->
-
     <!--== Page Title Area Start ==-->
     <section id="page-title-area" class="section-padding overlay">
         <div class="container">
@@ -224,6 +155,17 @@ error_reporting(0);
     </section>
     <!--== Page Title Area End ==-->
 
+    <!--== Page mapping starts here ==-->
+    <div class="page-pagi">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="gallery1.html">Previous</a></li>
+                <li class="page-item active"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="gallery3.html">Next</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--== Page mapping ends here ==-->
     <!--== Car List Area Start ==-->
     <section id="car-list-area" class="section-padding">
         <div class="container">
@@ -234,17 +176,17 @@ error_reporting(0);
                         <div class="row">
 
                             <!-- Single Car Start -->
-                            <div class="col-lg-6 col-md-6" id="a3">
+                            <div class="col-lg-6 col-md-6" id="lx570">
                                 <div class="single-car-wrap">
                                     <div class="car-list-thumb car-thumb-1">
-                                        <img src="img/cars/audi-a3.jpg" alt="Audia3">
+                                        <img src="img/cars/lexus-lx570.jpg" alt="Lexuslx570">
                                     </div>
                                     <div class="car-list-info without-bar">
-                                        <h2><a href="#">AUDI A3</a></h2>
+                                        <h2><a href="#">LEXUS LX570</a></h2>
                                         <h5>3500 k/sh Rent /per a day</h5>
                                         <p>Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean inorci luctus et ultrices posuere cubilia.</p>
                                         <ul class="car-info-list">
-                                            <li>RWD</li>
+                                            <li>AWD</li>
                                             <li>Petrol</li>
                                             <li>Auto</li>
                                         </ul>
@@ -261,44 +203,17 @@ error_reporting(0);
                             </div>
                             <!-- Single Car End -->
                             <!-- Single Car Start -->
-                            <div class="col-lg-6 col-md-6" id="a4">
+                            <div class="col-lg-6 col-md-6" id="rx350">
                                 <div class="single-car-wrap">
                                     <div class="car-list-thumb car-thumb-1">
-                                        <img src="img/cars/audi-a4.png" alt="Audia4">
+                                        <img src="img/cars/lexus-rx350.jpg" alt="Lexusrx350">
                                     </div>
                                     <div class="car-list-info without-bar">
-                                        <h2><a href="#">AUDI A4</a></h2>
+                                        <h2><a href="#">LEXUS RX350</a></h2>
                                         <h5>3500 k/sh Rent /per a day</h5>
                                         <p>Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean inorci luctus et ultrices posuere cubilia.</p>
                                         <ul class="car-info-list">
                                             <li>RWD</li>
-                                            <li>Petrol</li>
-                                            <li>Auto</li>
-                                        </ul>
-                                        <p class="rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </p>
-                                        <a href="#" class="rent-btn">Book It</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Car End -->
-                            <!-- Single Car Start -->
-                            <div class="col-lg-6 col-md-6" id="a5">
-                                <div class="single-car-wrap">
-                                    <div class="car-list-thumb car-thumb-1">
-                                        <img src="img/cars/audi-a5.png" alt="Audia5">
-                                    </div>
-                                    <div class="car-list-info without-bar">
-                                        <h2><a href="#">AUDI A5</a></h2>
-                                        <h5>3500 k/sh Rent /per a day</h5>
-                                        <p>Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean inorci luctus et ultrices posuere cubilia.</p>
-                                        <ul class="car-info-list">
-                                            <li>FWD</li>
                                             <li>Petrol</li>
                                             <li>Auto</li>
                                         </ul>
@@ -315,13 +230,13 @@ error_reporting(0);
                             </div>
                             <!-- Single Car End -->
                             <!-- Single Car Start -->
-                            <div class="col-lg-6 col-md-6" id="a6">
+                            <div class="col-lg-6 col-md-6" id="mazda2">
                                 <div class="single-car-wrap">
                                     <div class="car-list-thumb car-thumb-1">
-                                        <img src="img/cars/audi-a6.jpg" alt="a6">
+                                        <img src="img/cars/mazda-2.jpg" alt="Mazda2">
                                     </div>
                                     <div class="car-list-info without-bar">
-                                        <h2><a href="#">AUDI A6</a></h2>
+                                        <h2><a href="#">MAZDA 2</a></h2>
                                         <h5>3500 k/sh Rent /per a day</h5>
                                         <p>Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean inorci luctus et ultrices posuere cubilia.</p>
                                         <ul class="car-info-list">
@@ -342,17 +257,17 @@ error_reporting(0);
                             </div>
                             <!-- Single Car End -->
                             <!-- Single Car Start -->
-                            <div class="col-lg-6 col-md-6" id="a7">
+                            <div class="col-lg-6 col-md-6" id="mazda3">
                                 <div class="single-car-wrap">
                                     <div class="car-list-thumb car-thumb-1">
-                                        <img src="img/cars/audi-a7.jpg" alt="Audia7">
+                                        <img src="img/cars/mazda-3.jpg" alt="Mazda3">
                                     </div>
                                     <div class="car-list-info without-bar">
-                                        <h2><a href="#">AUDI A7</a></h2>
+                                        <h2><a href="#">MAZDA 3</a></h2>
                                         <h5>3500 k/sh Rent /per a day</h5>
                                         <p>Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean inorci luctus et ultrices posuere cubilia.</p>
                                         <ul class="car-info-list">
-                                            <li>RWD</li>
+                                            <li>AWD</li>
                                             <li>Petrol</li>
                                             <li>Auto</li>
                                         </ul>
@@ -369,26 +284,26 @@ error_reporting(0);
                             </div>
                             <!-- Single Car End -->
                             <!-- Single Car Start -->
-                            <div class="col-lg-6 col-md-6" id="komfort">
+                            <div class="col-lg-6 col-md-6" id="c200">
                                 <div class="single-car-wrap">
                                     <div class="car-list-thumb car-thumb-1">
-                                        <img src="img/cars/audi-komfort.png" alt="Audikomfort">
+                                        <img src="img/cars/merc-c200.png" alt="Mercc200">
                                     </div>
                                     <div class="car-list-info without-bar">
-                                        <h2><a href="#">AUDI A4-Komfort</a></h2>
+                                        <h2><a href="#">MERCEDES C200</a></h2>
                                         <h5>3500 k/sh Rent /per a day</h5>
                                         <p>Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean inorci luctus et ultrices posuere cubilia.</p>
                                         <ul class="car-info-list">
-                                            <li>RWD</li>
-                                            <li>Petrol</li>
-                                            <li>Auto</li>
+                                            <li>AWD</li>
+                                            <li>Diesel</li>
+                                            <li>Manual</li>
                                         </ul>
                                         <p class="rating">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star unmark"></i>
                                         </p>
                                         <a href="#" class="rent-btn">Book It</a>
                                     </div>
@@ -396,40 +311,13 @@ error_reporting(0);
                             </div>
                             <!-- Single Car End -->
                             <!-- Single Car Start -->
-                            <div class="col-lg-6 col-md-6" id="q5">
+                            <div class="col-lg-6 col-md-6" id="c300">
                                 <div class="single-car-wrap">
                                     <div class="car-list-thumb car-thumb-1">
-                                        <img src="img/cars/audi-q5.png" alt="Audiq5">
+                                        <img src="img/cars/merc-c300.jpg" alt="Mercc300">
                                     </div>
                                     <div class="car-list-info without-bar">
-                                        <h2><a href="#">AUDI Q5</a></h2>
-                                        <h5>3500 k/sh Rent /per a day</h5>
-                                        <p>Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean inorci luctus et ultrices posuere cubilia.</p>
-                                        <ul class="car-info-list">
-                                            <li>FWD</li>
-                                            <li>Petrol</li>
-                                            <li>Auto</li>
-                                        </ul>
-                                        <p class="rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </p>
-                                        <a href="#" class="rent-btn">Book It</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Car End -->
-                            <!-- Single Car Start -->
-                            <div class="col-lg-6 col-md-6" id="540i">
-                                <div class="single-car-wrap">
-                                    <div class="car-list-thumb car-thumb-1">
-                                        <img src="img/cars/bmw-540i.jpg" alt="BMW540i">
-                                    </div>
-                                    <div class="car-list-info without-bar">
-                                        <h2><a href="#">BMW 540i</a></h2>
+                                        <h2><a href="#">MERCEDES C300</a></h2>
                                         <h5>3500 k/sh Rent /per a day</h5>
                                         <p>Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean inorci luctus et ultrices posuere cubilia.</p>
                                         <ul class="car-info-list">
@@ -450,17 +338,44 @@ error_reporting(0);
                             </div>
                             <!-- Single Car End -->
                             <!-- Single Car Start -->
-                            <div class="col-lg-6 col-md-6" id="740i">
+                            <div class="col-lg-6 col-md-6" i="cla">
                                 <div class="single-car-wrap">
                                     <div class="car-list-thumb car-thumb-1">
-                                        <img src="img/cars/bmw-740i.png" alt="BMW740i">
+                                        <img src="img/cars/merc-cla.jpg" alt="Merccla">
                                     </div>
                                     <div class="car-list-info without-bar">
-                                        <h2><a href="#">BMW 740i</a></h2>
+                                        <h2><a href="#">MERCEDES CLA</a></h2>
                                         <h5>3500 k/sh Rent /per a day</h5>
                                         <p>Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean inorci luctus et ultrices posuere cubilia.</p>
                                         <ul class="car-info-list">
                                             <li>RWD</li>
+                                            <li>Petrol</li>
+                                            <li>Auto-Manual</li>
+                                        </ul>
+                                        <p class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </p>
+                                        <a href="#" class="rent-btn">Book It</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Car End -->
+                            <!-- Single Car Start -->
+                            <div class="col-lg-6 col-md-6" id="cls">
+                                <div class="single-car-wrap">
+                                    <div class="car-list-thumb car-thumb-1">
+                                        <img src="img/cars/merc-cls.jpg" alt="Merccls">
+                                    </div>
+                                    <div class="car-list-info without-bar">
+                                        <h2><a href="#">MERCEDES CLS</a></h2>
+                                        <h5>3500 k/sh Rent /per a day</h5>
+                                        <p>Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean inorci luctus et ultrices posuere cubilia.</p>
+                                        <ul class="car-info-list">
+                                            <li>AWD</li>
                                             <li>Petrol</li>
                                             <li>Auto</li>
                                         </ul>
@@ -477,19 +392,46 @@ error_reporting(0);
                             </div>
                             <!-- Single Car End -->
                             <!-- Single Car Start -->
-                            <div class="col-lg-6 col-md-6" id="m4">
+                            <div class="col-lg-6 col-md-6" id="e63">
                                 <div class="single-car-wrap">
                                     <div class="car-list-thumb car-thumb-1">
-                                        <img src="img/cars/bmw-m4.jpg" alt="BMWm4">
+                                        <img src="img/cars/merc-e63.jpg" alt="Merce63">
                                     </div>
                                     <div class="car-list-info without-bar">
-                                        <h2><a href="#">BMW M4</a></h2>
+                                        <h2><a href="#">MERCEDES E63</a></h2>
                                         <h5>3500 k/sh Rent /per a day</h5>
                                         <p>Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean inorci luctus et ultrices posuere cubilia.</p>
                                         <ul class="car-info-list">
-                                            <li>RWD</li>
-                                            <li>Pertol</li>
-                                            <li>Auto-Manual</li>
+                                            <li>AWD</li>
+                                            <li>Petrol</li>
+                                            <li>Auto</li>
+                                        </ul>
+                                        <p class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </p>
+                                        <a href="#" class="rent-btn">Book It</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Car End -->
+                            <!-- Single Car Start -->
+                            <div class="col-lg-6 col-md-6" id="e350">
+                                <div class="single-car-wrap">
+                                    <div class="car-list-thumb car-thumb-1">
+                                        <img src="img/cars/merc-e350.jpg" alt="Merce350">
+                                    </div>
+                                    <div class="car-list-info without-bar">
+                                        <h2><a href="#">MERCEDES E350</a></h2>
+                                        <h5>3500 k/sh Rent /per a day</h5>
+                                        <p>Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean inorci luctus et ultrices posuere cubilia.</p>
+                                        <ul class="car-info-list">
+                                            <li>AWD</li>
+                                            <li>Petrol</li>
+                                            <li>Auto</li>
                                         </ul>
                                         <p class="rating">
                                             <i class="fa fa-star"></i>
@@ -508,13 +450,14 @@ error_reporting(0);
                             <div class="page-pagi">
                                 <nav aria-label="Page navigation example">
                                     <ul class="pagination">
-                                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="gallery1.html">Previous</a></li>
+                                        <li class="page-item"><a class="page-link" href="gallery.html">1</a></li>
                                         <li class="page-item"><a class="page-link" href="gallery1.html">2</a></li>
-                                        <li class="page-item"><a class="page-link" href="gallery2.html">3</a></li>
+                                        <li class="page-item active"><a class="page-link" href="#">3</a></li>
                                         <li class="page-item"><a class="page-link" href="gallery3.html">4</a></li>
                                         <li class="page-item"><a class="page-link" href="gallery4.html">5</a></li>
                                         <li class="page-item"><a class="page-link" href="gallery5.html">6</a></li>
-                                        <li class="page-item"><a class="page-link" href="gallery1.html">Next</a></li>
+                                        <li class="page-item"><a class="page-link" href="gallery3.html">Next</a></li>
                                     </ul>
                                 </nav>
                             </div>
